@@ -1,5 +1,9 @@
 # eazy-reader
 
+<div style="text-align: center">
+  <img width="64" height="auto" src="./docs/icon.png"/>
+</div>
+
 A tiny little widget that improves your online reading experience.
 
 <div style="text-align: center">
