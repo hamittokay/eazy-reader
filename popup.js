@@ -1,11 +1,6 @@
 class EazyReader {
   constructor(options) {
-    this.options = options || {
-      blur: true,
-      blurIntensity: 5,
-      lensHeight: 150,
-      lensOpacity: 0.8,
-    };
+    this.options = options || {};
     this.topCloak = null;
     this.bottomCloak = null;
     this.floatingButton = null;
@@ -146,10 +141,11 @@ class EazyReader {
   }
 }
 
-window.onload = function () {
-  new EazyReader();
-};
-
-chrome.runtime.onMessage.addListener(function (event) {
-  console.log(event);
-});
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+    alert("asd");
+    new EazyReader();
+  },
+  false
+);
