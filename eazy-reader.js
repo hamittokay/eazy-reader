@@ -60,10 +60,6 @@ class EazyReader {
       if (event.code === "Escape") {
         this.toggleCloaks(false);
       }
-
-      if (event.code === "KeyR") {
-        this.toggleCloaks(true);
-      }
     });
     document.addEventListener("blur", () => {
       this.toggleCloaks(false);
