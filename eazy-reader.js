@@ -145,11 +145,3 @@ class EazyReader {
     this.updateCloakStyles("display", condition ? "block" : "none");
   }
 }
-
-window.onload = function () {
-  new EazyReader();
-};
-
-chrome.runtime.onMessage.addListener(function (event) {
-  console.log(event);
-});
