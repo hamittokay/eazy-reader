@@ -6,9 +6,8 @@
 
 A tiny little widget that improves your online reading experience.
 
-<div style="text-align: center">
-  <img src="./docs/demo.png" height="auto"/>
-</div>
+Feel free to add this into your blog or docs site so your users can focus on what
+they are reading.
 
 # Installation
 
@@ -18,6 +17,22 @@ A tiny little widget that improves your online reading experience.
   new EazyReader();
 </script>
 ```
+
+# Demo
+
+The magic starts happening after the user clicks on the icon on the right bottom of your page.
+
+<div style="text-align: center">
+  <img src="./docs/demo.png" height="auto"/>
+</div>
+
+## Then the focus mode is activated.
+
+<div style="text-align: center">
+  <img src="./docs/demo-2.png" height="auto"/>
+</div>
+
+### Focus mode can be disabled by pressing the `ESC` key.
 
 # Options
 
