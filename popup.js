@@ -1,11 +1,6 @@
 class EazyReader {
   constructor(options) {
-    this.options = options || {
-      blur: true,
-      blurIntensity: 5,
-      lensHeight: 150,
-      lensOpacity: 0.8,
-    };
+    this.options = options || {};
     this.topCloak = null;
     this.bottomCloak = null;
     this.floatingButton = null;
@@ -59,6 +54,10 @@ class EazyReader {
     document.addEventListener("keydown", (event) => {
       if (event.code === "Escape") {
         this.toggleCloaks(false);
+      }
+
+      if (event.code === "KeyR") {
+        this.toggleCloaks(true);
       }
     });
     document.addEventListener("blur", () => {
@@ -141,3 +140,12 @@ class EazyReader {
     this.updateCloakStyles("display", condition ? "block" : "none");
   }
 }
+
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+    alert("asd");
+    new EazyReader();
+  },
+  false
+);
