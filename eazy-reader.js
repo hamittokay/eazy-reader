@@ -113,6 +113,7 @@ class EazyReader {
 
       .er-floating-button {
         position: fixed;
+        z-index: 1999;
         width: 50px;
         height: 50px;
         background: #0f172a;
