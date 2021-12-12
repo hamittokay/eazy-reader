@@ -11,7 +11,7 @@ they are reading.
 
 # Installation
 
-```js
+```html
 <script src="eazy-reader.js"></script>
 <script>
   new EazyReader();
